@@ -10598,19 +10598,26 @@ body.home .pageWrap, body.post-type-archive-resource .pageWrap{
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 5px;
+    width: 100%;
 }
 
-.footer .footer-form .gform_wrapper form .gform_body{
+.footer .footer-form .gform_wrapper form .gform_body {
     grid-column: 1;
 }
-.footer .footer-form .gform_wrapper form .gform_footer{
-    grid-column: 1;
+
+.footer .footer-form .gform_wrapper form .gform_footer {
+    grid-column: 2;
+}
+
+.footer .footer-form .gform_wrapper form .gf_invisible {
+    grid-column: 2;
 }
 
 .footer .footer-form .gform_wrapper form .gform_body .gform_fields{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
+    width: 100%;
 }
 
 .footer .footer-form .gform_wrapper form .gform_footer .gform_button{
@@ -10628,4 +10635,19 @@ body.home .pageWrap, body.post-type-archive-resource .pageWrap{
 .footer .footer-form .gform_wrapper .gform_title,
 .footer .footer-form .gform_wrapper .gform_description{
     color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer .footer-form .gform_wrapper form{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        width: 100%;
+    }
+    .footer .footer-form .gform_wrapper form .gform_body .gform_fields{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        width: 100%;
+    }
 }

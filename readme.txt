@@ -21,8 +21,11 @@ Prerequisites - Must have the LUCA 1 framework installed.
 
 == Changelog ==
 
+= 1.1.1 =
+* Style Fix
+
 = 1.1 =
-* 
+* Style Update
 
 = 1.0 =
 * First release
