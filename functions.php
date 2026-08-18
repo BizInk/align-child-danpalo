@@ -52,3 +52,9 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+/* Updater */
+require 'plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+$myUpdateChecker = PucFactory::buildUpdateChecker('https://github.com/BizInk/align-child-danpalo/',__FILE__,'align-child-danpalo');
+$myUpdateChecker->setBranch('master');
