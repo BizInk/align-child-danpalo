@@ -1,0 +1,60 @@
+<?php return array(
+  array(
+    'key' => 'banner_text_align',
+    'label' => 'Text alignment',
+    'name' => 'banner_text_align',
+    'type' => 'radio',
+    'instructions' => '',
+    'required' => 0,
+    'conditional_logic' => 0,
+    'wrapper' => array(
+      'width' => '',
+      'class' => '',
+      'id' => '',
+    ),
+    'choices' => array(
+      'default' => 'Full width',
+      'left' => 'Left',
+      'right' => 'Right',
+    ),
+    'allow_null' => 0,
+    'other_choice' => 0,
+    'default_value' => '',
+    'layout' => 'vertical',
+    'return_format' => 'value',
+    'save_other_choice' => 0,
+  ),
+  array(
+    'key' => 'banner_image',
+    'label' => 'Image',
+    'name' => 'banner_image',
+    'type' => 'image',
+    'instructions' => '',
+    'required' => 0,
+    'conditional_logic' => array(
+      array(
+        array(
+          'field' => 'banner_image_check',
+          'operator' => '==',
+          'value' => 'image',
+        ),
+      ),
+    ),
+    'wrapper' => array(
+      'width' => '',
+      'class' => '',
+      'id' => '',
+    ),
+    'return_format' => 'array',
+    'preview_size' => 'thumbnail',
+    'library' => 'all',
+    'min_width' => '',
+    'min_height' => '',
+    'min_size' => '',
+    'max_width' => '',
+    'max_height' => '',
+    'max_size' => '',
+    'mime_types' => '',
+  ),
+);
+

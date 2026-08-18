@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_970" data-name="Rectangle 970" class="cls-1" width="16" height="16" transform="translate(1201.231 7627.716)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1154" data-name="Group 1154" transform="translate(-1201.231 -7627.716)">
+    <g id="Group_1153" data-name="Group 1153" class="cls-2">
+      <g id="Component_12_1" data-name="Component 12 1">
+        <rect id="Rectangle_393" data-name="Rectangle 393" class="cls-1" width="16" height="16" transform="translate(1201.231 7627.716)"/>
+        <path id="Path_2" data-name="Path 2" class="cls-3" d="M1206.3,7642.693a9.25,9.25,0,0,0,9.333-9.166v-.612a7.216,7.216,0,0,0,1.6-1.689,7.314,7.314,0,0,1-1.867.533,3.455,3.455,0,0,0,1.422-1.778,8.123,8.123,0,0,1-2.044.8,3.18,3.18,0,0,0-2.4-1.066,3.341,3.341,0,0,0-3.289,3.289,1.732,1.732,0,0,0,.089.711,9.184,9.184,0,0,1-6.756-3.467,3.392,3.392,0,0,0-.444,1.689,3.53,3.53,0,0,0,1.422,2.756,2.991,2.991,0,0,1-1.511-.444h0a3.248,3.248,0,0,0,2.667,3.2,2.705,2.705,0,0,1-.889.089,1.5,1.5,0,0,1-.622-.089,3.365,3.365,0,0,0,3.111,2.311,6.709,6.709,0,0,1-4.089,1.422,2.432,2.432,0,0,1-.8-.089,8.379,8.379,0,0,0,5.067,1.6"/>
+      </g>
+    </g>
+  </g>
+</svg>
