@@ -10625,10 +10625,10 @@ body.home .pageWrap, body.post-type-archive-resource .pageWrap{
     height: 100%;
 }
 
-.footer .footer-form .gform_wrapper form .gform_body .gform_fields .ginput_container .footer input[type=text],
-.footer .footer-form .gform_wrapper form .gform_body .gform_fields .ginput_container .footer .footer input[type=email],
-.footer .footer-form .gform_wrapper form .gform_body .gform_fields .ginput_container .footer .footer input[type=phone],
-.footer .footer-form .gform_wrapper form .gform_body .gform_fields .ginput_container .footer .footer input[type=url] {
+.footer .footer-form .gform_wrapper form .gform_body .gform_fields .ginput_container input[type=text],
+.footer .footer-form .gform_wrapper form .gform_body .gform_fields .ginput_container input[type=email],
+.footer .footer-form .gform_wrapper form .gform_body .gform_fields .ginput_container input[type=phone],
+.footer .footer-form .gform_wrapper form .gform_body .gform_fields .ginput_container input[type=url] {
     width:100%;
 }
 
