@@ -2,8 +2,8 @@
 Contributors: Bizink,Jayden Major
 Tags: Bizink, Align, LUCA 1
 Requires at least: 5.6
-Tested up to: 7.0
-Stable tag: 1.1
+Tested up to: 7.1.4
+Stable tag: 1.2
 Requires PHP: 7.4
 
 The Align Child Danpalo theme from Bizink is a modern, responsive theme for WordPress. Build on the LUCA 1 framework.
@@ -20,6 +20,9 @@ Prerequisites - Must have the LUCA 1 framework installed.
 == Frequently Asked Questions ==
 
 == Changelog ==
+
+= 1.2 =
+* Disclaimer Fix
 
 = 1.1.1 =
 * Style Fix

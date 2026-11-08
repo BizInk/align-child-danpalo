@@ -49,6 +49,9 @@
             <?php do_action('luca/theme/footer/social'); ?>
         </div>
       </div>
+      <div class="col-md-12 footer-disclaimer">
+        <?php do_action('luca/theme/footer/disclaimer'); ?>
+      </div>
     </div>
   </div>
 </div>
