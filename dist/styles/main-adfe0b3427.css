@@ -9056,9 +9056,8 @@ a.topBar_item:focus,a.topBar_item:hover{
 }
 .disclaimer{
     font-size:.75rem;
-    background-color:#303637;
     color:#aaa;
-    padding-top:1.625rem
+    text-align:center;
 }
 .disclaimer p:last-child{
     margin-bottom:0
